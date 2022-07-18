@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'https://gateway.marvel.com:443/v1/public/characters?apikey='
+    baseURL: 'api.tvmaze.com/search/shows?q=star%20wars'
 });
 
 export default api;

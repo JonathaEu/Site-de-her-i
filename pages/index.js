@@ -11,7 +11,7 @@ class App extends Component {
     async componentDidMount(){
         const response = await api.get('');
 
-        this.setState({ filmes: response.data})
+        this.setState({ herois: response.data})
     }
 
     render(){
