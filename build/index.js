@@ -1,3 +1,5 @@
+"use strict";
+/*
 import React, { Component } from 'react';
 import api from './api'
 // import { Container } from './styles';
@@ -21,10 +23,12 @@ class App extends Component {
             <div>
                 <h1>Heróis</h1>
                 {herois.map(herois => (
-                    <li key={heroi.CharacterDataWrapper.code}>
+                    <li key={herois.Character}>
                         <h2>
                             <strong>Nome:</strong>
-                            {heroi.CharacterDataWrapper.name}
+                            {herois.Character.name}
+                            <strong>Fonte:</strong>
+                            {herois.CharacterDataWrapper.attributionText}
                         </h2>
                     </li>
                 ))}
@@ -35,3 +39,4 @@ class App extends Component {
 }
 
 export default App
+*/ 
