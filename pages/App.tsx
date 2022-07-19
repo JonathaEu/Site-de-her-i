@@ -21,4 +21,4 @@ const App: React.FunctionComponent = () => {
     return <h2>Heróis</h2>
 };
 
-export default App;
+export default App; 
