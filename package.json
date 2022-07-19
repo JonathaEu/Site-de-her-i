@@ -4,8 +4,7 @@
   "description": "",
   "main": "App.tsx",
   "scripts": {
-    "serv": "next dev",
-    "build": "tsc"
+    "serv": "next dev"
   },
   "repository": {
     "type": "git",
